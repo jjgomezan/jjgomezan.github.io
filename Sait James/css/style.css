@@ -1,0 +1,84 @@
+/*font-family: 'shadows into Light', cursive;
+fon-family: 'indie Flower', cursive;
+*/
+
+#contenidos{
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	position: relative;
+	background: blue;
+}
+
+body{
+	background-image: url(../Img/images.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+h1{
+	font-family: 'shadows into Light', cursive;
+	color: white;
+	margin-left: 10px;
+	font-size: 30px;
+	text-align: center;
+}
+h2{
+	font-family: 'indie Flower', cursive;
+	color: white;
+	margin-left: 10px;
+	font-size: 20px;
+	text-align: left;
+}
+
+h3{
+	font-family: 'shadows into Light', cursive;
+	color: white;
+	font-size: 10px;
+	text-align: center;
+}
+header{
+	width: 1000px;
+	height: 120px;
+	background: blueLight;
+}
+
+nav{
+	width: 1000px;
+	height: 50px;
+	background: black;
+	border-radius: 10px;
+}
+vl{
+	margin: auto;
+	padding-top: 4px;
+}
+li{
+	float: left;
+	list-style-type: none;
+	padding: 10px;
+	background: bluelight;
+	margin: 3px;
+	border-radius: 10px;
+	box-shadow: 0  0 10px white inset;
+
+}
+footer{
+	width: 100px;
+	height: 50px;
+	background: gray;
+	float: left;
+	margin-top: 50px; 
+	border-radius: 10px;
+}
+
+/*CLASES*/
+
+.ancho_menu_home{width: 900px;}
+.ancho_menu_paginas{width: 970px;}
+
+.menu:link{ color: white; text-decoration: none;}
+.menu:visited{color: white; text-decoration: none;}
+.menu:hover{color: white; text-decoration: none; text-shadow: 0  0 10px white inset;}
+.menu:active{color: white; text-decoration: none;}
+
+
